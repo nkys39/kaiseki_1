@@ -1,0 +1,64 @@
+<launch>
+    <!-- Arguments -->
+    <arg name="scan_topicname" default="scan"/>
+    <arg name="map_topicname" default="map"/>
+    <arg name="base_frame" default="base_footprint"/>
+    <arg name="map_frame" default="map"/>
+    
+    <arg name="initial_map_size" default="1"/>
+    <arg name="err" default="-999999999"/>
+    <arg name="map_rate" default="50.0"/>
+    <arg name="t2" default="500"/>
+    <arg name="ganm" default="100"/>
+    <arg name="transformed_frame" default="laser2"/>
+
+    <!-- base_footprint ⇒ laser -->
+    <node pkg="tf2_ros" type="static_transform_publisher" name="base_to_laser_static_tf"
+    args=" 0.25 0.0 0.0  0.0 0.0 0.0 $(arg base_frame) laser" /> 
+    <node pkg="tf2_ros" type="static_transform_publisher" name="base_to_laser2_static_tf"
+    args=" 0.25 0.0 0.0  0.0 0.0 0.0 $(arg base_frame) $(arg transformed_frame)" /> 
+
+    <!-- GA SLAM -->
+    
+
+
+    <!-- GA SLAM -->
+    <node pkg="es_slam" type="es_slam_node" name="es_slam_node" output="screen">
+        <!-- subscribe -->
+        <remap from="scan" to="$(arg scan_topicname)"/>
+        <!-- publish -->
+        <remap from="map" to="$(arg map_topicname)"/>
+        <!-- param -->
+        <param name="base_frame" value="$(arg base_frame)"/>
+        <param name="map_frame" value="$(arg map_frame)"/>
+        <param name="initial_map_size" value="$(arg initial_map_size)"/>
+        <param name="err" value="$(arg err)"/>
+        <param name="map_rate" value="$(arg map_rate)"/>
+        <param name="t2" value="$(arg t2)"/>
+        <param name="ganm" value="$(arg ganm)" />
+        <param name="transformed_frame" value="$(arg transformed_frame)"/>
+
+        <!-- 対数オッズパラメータ -->
+        <param name="use_logodds" value="false"/>
+        <!-- 占有時の更新量: 従来の+2に相当 -->
+        <param name="logodds_occ" value="0.2"/>
+        <!-- 非占有時の更新量: 従来の-1に相当 -->
+        <param name="logodds_free" value="-0.1"/>
+        <!-- 最大/最小値: 従来の±100に相当 -->
+        <param name="logodds_max" value="5.0"/>
+        <param name="logodds_min" value="-5.0"/>
+        <!-- 占有/非占有の判定閾値 -->
+        <param name="logodds_thresh_occ" value="0.5"/>
+        <param name="logodds_thresh_free" value="-0.5"/>
+
+        <param name="use_resampling" value="true"/>
+        <param name="resample_distance_threshold" value="0.05"/>
+        <param name="resample_length_threshold" value="0.25"/>
+    
+    </node>
+
+    <!-- <include file="$(find rplidar_ros)/launch/rplidar_a1.launch" /> -->
+
+    <node pkg="rviz" type="rviz" name="rviz" args="-d $(find es_slam)/rviz/es_slam.rviz" required="true" />
+
+</launch>
