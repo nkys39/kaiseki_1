@@ -1,0 +1,274 @@
+﻿  Pipe_Comm.cpp
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(21,1): warning C4005: '_MBCS': マクロが再定義されました。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Pipe_Comm.cpp : message : '_MBCS' の以前の定義を確認してください
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(440,1): warning C4005: 'RS16_ROTATION_SPEED': マクロが再定義されました。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(105): message : 'RS16_ROTATION_SPEED' の以前の定義を確認してください
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(461,185): warning C4305: '初期化中': 'double' から 'const float' へ切り詰めます。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(472,1): warning C4305: '初期化中': 'double' から 'const float' へ切り詰めます。
+  Serial.cpp
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(21,1): warning C4005: '_MBCS': マクロが再定義されました。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Serial.cpp : message : '_MBCS' の以前の定義を確認してください
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(440,1): warning C4005: 'RS16_ROTATION_SPEED': マクロが再定義されました。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(105): message : 'RS16_ROTATION_SPEED' の以前の定義を確認してください
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(461,185): warning C4305: '初期化中': 'double' から 'const float' へ切り詰めます。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(472,1): warning C4305: '初期化中': 'double' から 'const float' へ切り詰めます。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Serial.cpp(645,11): warning C4101: 'cols': ローカル変数は 1 度も使われていません。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Serial.cpp(646,11): warning C4101: 'cols_size': ローカル変数は 1 度も使われていません。
+  controller.cpp
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(21,1): warning C4005: '_MBCS': マクロが再定義されました。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\controller.cpp : message : '_MBCS' の以前の定義を確認してください
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(440,1): warning C4005: 'RS16_ROTATION_SPEED': マクロが再定義されました。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(105): message : 'RS16_ROTATION_SPEED' の以前の定義を確認してください
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(461,185): warning C4305: '初期化中': 'double' から 'const float' へ切り詰めます。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(472,1): warning C4305: '初期化中': 'double' から 'const float' へ切り詰めます。
+  draw.cpp
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(21,1): warning C4005: '_MBCS': マクロが再定義されました。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\draw.cpp : message : '_MBCS' の以前の定義を確認してください
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(440,1): warning C4005: 'RS16_ROTATION_SPEED': マクロが再定義されました。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(105): message : 'RS16_ROTATION_SPEED' の以前の定義を確認してください
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(461,185): warning C4305: '初期化中': 'double' から 'const float' へ切り詰めます。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(472,1): warning C4305: '初期化中': 'double' から 'const float' へ切り詰めます。
+  illuminance.cpp
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(21,1): warning C4005: '_MBCS': マクロが再定義されました。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\illuminance.cpp : message : '_MBCS' の以前の定義を確認してください
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(440,1): warning C4005: 'RS16_ROTATION_SPEED': マクロが再定義されました。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(105): message : 'RS16_ROTATION_SPEED' の以前の定義を確認してください
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(461,185): warning C4305: '初期化中': 'double' から 'const float' へ切り詰めます。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(472,1): warning C4305: '初期化中': 'double' から 'const float' へ切り詰めます。
+  localization.cpp
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(21,1): warning C4005: '_MBCS': マクロが再定義されました。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\localization.cpp : message : '_MBCS' の以前の定義を確認してください
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(440,1): warning C4005: 'RS16_ROTATION_SPEED': マクロが再定義されました。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(105): message : 'RS16_ROTATION_SPEED' の以前の定義を確認してください
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(461,185): warning C4305: '初期化中': 'double' から 'const float' へ切り詰めます。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(472,1): warning C4305: '初期化中': 'double' から 'const float' へ切り詰めます。
+  main.cpp
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(21,1): warning C4005: '_MBCS': マクロが再定義されました。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp : message : '_MBCS' の以前の定義を確認してください
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(440,1): warning C4005: 'RS16_ROTATION_SPEED': マクロが再定義されました。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(105): message : 'RS16_ROTATION_SPEED' の以前の定義を確認してください
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(461,185): warning C4305: '初期化中': 'double' から 'const float' へ切り詰めます。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(472,1): warning C4305: '初期化中': 'double' から 'const float' へ切り詰めます。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(271,26): warning C4477: 'snprintf' : 書式文字列 '%f' には、型 'double' の引数が必要ですが、可変個引数 1 は型 'int' です
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(452,51): warning C4566: ユニバーサル文字名 '\u7167' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(452,51): warning C4566: ユニバーサル文字名 '\u5EA6' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(452,51): warning C4566: ユニバーサル文字名 '\u6E2C' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(452,51): warning C4566: ユニバーサル文字名 '\u5B9A' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(452,51): warning C4566: ユニバーサル文字名 '\u30ED' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(452,51): warning C4566: ユニバーサル文字名 '\u30DC' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(452,51): warning C4566: ユニバーサル文字名 '\u30C3' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(452,51): warning C4566: ユニバーサル文字名 '\u30C8' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(458,16): warning C4566: ユニバーサル文字名 '\u3010' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(458,37): warning C4566: ユニバーサル文字名 '\u3011' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(458,37): warning C4566: ユニバーサル文字名 '\u8D70' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(458,37): warning C4566: ユニバーサル文字名 '\u884C' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(458,37): warning C4566: ユニバーサル文字名 '\u5B8C' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(458,37): warning C4566: ユニバーサル文字名 '\u4E86' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(458,37): warning C4566: ユニバーサル文字名 '\u901A' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(458,37): warning C4566: ユニバーサル文字名 '\u77E5' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(459,26): warning C4566: ユニバーサル文字名 '\u304C' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(459,26): warning C4566: ユニバーサル文字名 '\u8D70' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(459,26): warning C4566: ユニバーサル文字名 '\u884C' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(459,26): warning C4566: ユニバーサル文字名 '\u3092' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(459,26): warning C4566: ユニバーサル文字名 '\u5B8C' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(459,26): warning C4566: ユニバーサル文字名 '\u4E86' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(459,26): warning C4566: ユニバーサル文字名 '\u3057' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(459,26): warning C4566: ユニバーサル文字名 '\u307E' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(459,26): warning C4566: ユニバーサル文字名 '\u305F' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(459,26): warning C4566: ユニバーサル文字名 '\u3002' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(462,16): warning C4566: ユニバーサル文字名 '\u3010' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(462,37): warning C4566: ユニバーサル文字名 '\u3011' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(462,37): warning C4566: ユニバーサル文字名 '\u843D' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(462,37): warning C4566: ユニバーサル文字名 '\u4E0B' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(462,37): warning C4566: ユニバーサル文字名 '\u9632' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(462,37): warning C4566: ユニバーサル文字名 '\u6B62' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(462,37): warning C4566: ユニバーサル文字名 '\u30BB' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(462,37): warning C4566: ユニバーサル文字名 '\u30F3' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(462,37): warning C4566: ユニバーサル文字名 '\u30B5' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(462,37): warning C4566: ユニバーサル文字名 '\u53CD' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(462,37): warning C4566: ユニバーサル文字名 '\u5FDC' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(462,37): warning C4566: ユニバーサル文字名 '\u901A' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(462,37): warning C4566: ユニバーサル文字名 '\u77E5' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(463,26): warning C4566: ユニバーサル文字名 '\u306E' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(463,26): warning C4566: ユニバーサル文字名 '\u843D' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(463,26): warning C4566: ユニバーサル文字名 '\u4E0B' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(463,26): warning C4566: ユニバーサル文字名 '\u9632' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(463,26): warning C4566: ユニバーサル文字名 '\u6B62' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(463,26): warning C4566: ユニバーサル文字名 '\u30BB' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(463,26): warning C4566: ユニバーサル文字名 '\u30F3' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(463,26): warning C4566: ユニバーサル文字名 '\u30B5' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(463,26): warning C4566: ユニバーサル文字名 '\u304C' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(463,26): warning C4566: ユニバーサル文字名 '\u53CD' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(463,26): warning C4566: ユニバーサル文字名 '\u5FDC' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(463,26): warning C4566: ユニバーサル文字名 '\u3057' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(463,26): warning C4566: ユニバーサル文字名 '\u305F' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(463,26): warning C4566: ユニバーサル文字名 '\u3081' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(463,26): warning C4566: ユニバーサル文字名 '\u8D70' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(463,26): warning C4566: ユニバーサル文字名 '\u884C' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(463,26): warning C4566: ユニバーサル文字名 '\u3092' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(463,26): warning C4566: ユニバーサル文字名 '\u4E2D' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(463,26): warning C4566: ユニバーサル文字名 '\u307E' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(463,26): warning C4566: ユニバーサル文字名 '\u3002' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(463,26): warning C4566: ユニバーサル文字名 '\u78BA' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(463,26): warning C4566: ユニバーサル文字名 '\u8A8D' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(463,26): warning C4566: ユニバーサル文字名 '\u304A' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(463,26): warning C4566: ユニバーサル文字名 '\u9858' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(463,26): warning C4566: ユニバーサル文字名 '\u3044' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(463,26): warning C4566: ユニバーサル文字名 '\u3059' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(466,16): warning C4566: ユニバーサル文字名 '\u3010' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(466,37): warning C4566: ユニバーサル文字名 '\u3011' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(466,37): warning C4566: ユニバーサル文字名 '\u8D70' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(466,37): warning C4566: ユニバーサル文字名 '\u884C' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(466,37): warning C4566: ユニバーサル文字名 '\u7D99' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(466,37): warning C4566: ユニバーサル文字名 '\u7D9A' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(466,37): warning C4566: ユニバーサル文字名 '\u56F0' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(466,37): warning C4566: ユニバーサル文字名 '\u96E3' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(466,37): warning C4566: ユニバーサル文字名 '\u901A' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(466,37): warning C4566: ユニバーサル文字名 '\u77E5' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(467,26): warning C4566: ユニバーサル文字名 '\u306E' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(467,26): warning C4566: ユニバーサル文字名 '\u8D70' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(467,26): warning C4566: ユニバーサル文字名 '\u884C' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(467,26): warning C4566: ユニバーサル文字名 '\u7D99' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(467,26): warning C4566: ユニバーサル文字名 '\u7D9A' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(467,26): warning C4566: ユニバーサル文字名 '\u304C' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(467,26): warning C4566: ユニバーサル文字名 '\u56F0' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(467,26): warning C4566: ユニバーサル文字名 '\u96E3' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(467,26): warning C4566: ユニバーサル文字名 '\u306A' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(467,26): warning C4566: ユニバーサル文字名 '\u72B6' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(467,26): warning C4566: ユニバーサル文字名 '\u614B' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(467,26): warning C4566: ユニバーサル文字名 '\u306B' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(467,26): warning C4566: ユニバーサル文字名 '\u3063' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(467,26): warning C4566: ユニバーサル文字名 '\u3066' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(467,26): warning C4566: ユニバーサル文字名 '\u3044' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(467,26): warning C4566: ユニバーサル文字名 '\u307E' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(467,26): warning C4566: ユニバーサル文字名 '\u3059' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(467,26): warning C4566: ユニバーサル文字名 '\u3002' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(467,26): warning C4566: ユニバーサル文字名 '\u3092' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(467,26): warning C4566: ユニバーサル文字名 '\u4E2D' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(467,26): warning C4566: ユニバーサル文字名 '\u6B62' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(467,26): warning C4566: ユニバーサル文字名 '\u3057' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(467,26): warning C4566: ユニバーサル文字名 '\u3001' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(467,26): warning C4566: ユニバーサル文字名 '\u518D' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(467,26): warning C4566: ユニバーサル文字名 '\u304A' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(467,26): warning C4566: ユニバーサル文字名 '\u9858' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(470,16): warning C4566: ユニバーサル文字名 '\u3010' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(470,37): warning C4566: ユニバーサル文字名 '\u3011' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(470,37): warning C4566: ユニバーサル文字名 '\u8D70' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(470,37): warning C4566: ユニバーサル文字名 '\u884C' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(470,37): warning C4566: ユニバーサル文字名 '\u7D99' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(470,37): warning C4566: ユニバーサル文字名 '\u7D9A' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(470,37): warning C4566: ユニバーサル文字名 '\u4E2D' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(470,37): warning C4566: ユニバーサル文字名 '\u901A' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(470,37): warning C4566: ユニバーサル文字名 '\u77E5' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(471,26): warning C4566: ユニバーサル文字名 '\u8D70' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(471,26): warning C4566: ユニバーサル文字名 '\u884C' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(471,26): warning C4566: ユニバーサル文字名 '\u4E2D' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(471,26): warning C4566: ユニバーサル文字名 '\u306E' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(471,26): warning C4566: ユニバーサル文字名 '\u5B9A' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(471,26): warning C4566: ユニバーサル文字名 '\u671F' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(471,26): warning C4566: ユニバーサル文字名 '\u901A' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(471,26): warning C4566: ユニバーサル文字名 '\u77E5' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(471,26): warning C4566: ユニバーサル文字名 '\u3067' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(471,26): warning C4566: ユニバーサル文字名 '\u3059' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(471,26): warning C4566: ユニバーサル文字名 '\u3002' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(471,99): warning C4566: ユニバーサル文字名 '\u5B8C' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(471,99): warning C4566: ユニバーサル文字名 '\u4E86' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(471,99): warning C4566: ユニバーサル文字名 '\u3057' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(471,99): warning C4566: ユニバーサル文字名 '\u307E' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(471,99): warning C4566: ユニバーサル文字名 '\u305F' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(471,99): warning C4566: ユニバーサル文字名 '\u3002' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(551,17): warning C4566: ユニバーサル文字名 '\u518D' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(551,17): warning C4566: ユニバーサル文字名 '\u751F' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(551,17): warning C4566: ユニバーサル文字名 '\u3067' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(551,17): warning C4566: ユニバーサル文字名 '\u304D' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(551,17): warning C4566: ユニバーサル文字名 '\u307E' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(551,17): warning C4566: ユニバーサル文字名 '\u305B' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(551,17): warning C4566: ユニバーサル文字名 '\u3093' によって表示されている文字は、現在のコード ページ (1252) で表示できません
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\main.cpp(673,7): warning C4101: 'init_sensor': ローカル変数は 1 度も使われていません。
+  multi_resolution.cpp
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(21,1): warning C4005: '_MBCS': マクロが再定義されました。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\multi_resolution.cpp : message : '_MBCS' の以前の定義を確認してください
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(440,1): warning C4005: 'RS16_ROTATION_SPEED': マクロが再定義されました。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(105): message : 'RS16_ROTATION_SPEED' の以前の定義を確認してください
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(461,185): warning C4305: '初期化中': 'double' から 'const float' へ切り詰めます。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(472,1): warning C4305: '初期化中': 'double' から 'const float' へ切り詰めます。
+  myRSLidar.cpp
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(21,1): warning C4005: '_MBCS': マクロが再定義されました。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\myRSLidar.cpp : message : '_MBCS' の以前の定義を確認してください
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(440,1): warning C4005: 'RS16_ROTATION_SPEED': マクロが再定義されました。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(105): message : 'RS16_ROTATION_SPEED' の以前の定義を確認してください
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(461,185): warning C4305: '初期化中': 'double' から 'const float' へ切り詰めます。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(472,1): warning C4305: '初期化中': 'double' から 'const float' へ切り詰めます。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\myRSLidar.cpp(57,20): warning C4244: '=': 'SOCKET' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\myRSLidar.cpp(33,9): warning C4101: 'time64': ローカル変数は 1 度も使われていません。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\myRSLidar.cpp(34,13): warning C4101: 'st': ローカル変数は 1 度も使われていません。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\myRSLidar.cpp(35,8): warning C4101: 'initTimeFile': ローカル変数は 1 度も使われていません。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\myRSLidar.cpp(94,9): warning C4101: 'time64': ローカル変数は 1 度も使われていません。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\myRSLidar.cpp(95,13): warning C4101: 'st': ローカル変数は 1 度も使われていません。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\myRSLidar.cpp(96,8): warning C4101: 'initTimeFile': ローカル変数は 1 度も使われていません。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\myRSLidar.cpp(136,9): warning C4101: 'time64': ローカル変数は 1 度も使われていません。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\myRSLidar.cpp(137,13): warning C4101: 'st': ローカル変数は 1 度も使われていません。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\myRSLidar.cpp(121,23): warning C4101: 'lCounti': ローカル変数は 1 度も使われていません。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\myRSLidar.cpp(135,8): warning C4101: 'receiveDataFile': ローカル変数は 1 度も使われていません。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\myRSLidar.cpp(134,8): warning C4101: 'RSReceiveTimeFile': ローカル変数は 1 度も使われていません。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\myRSLidar.cpp(229,15): warning C4244: '初期化中': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\myRSLidar.cpp(230,16): warning C4244: '初期化中': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\myRSLidar.cpp(231,15): warning C4244: '初期化中': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\myRSLidar.cpp(304,50): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\myRSLidar.cpp(516,36): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\myRSLidar.cpp(535,22): warning C4244: '初期化中': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\myRSLidar.cpp(547,22): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\myRSLidar.cpp(548,21): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\myRSLidar.cpp(550,52): warning C4305: '初期化中': 'double' から 'float' へ切り詰めます。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\myRSLidar.cpp(397,8): warning C4101: 'RSProcessTimeFile': ローカル変数は 1 度も使われていません。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\myRSLidar.cpp(399,9): warning C4101: 'time64': ローカル変数は 1 度も使われていません。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\myRSLidar.cpp(400,13): warning C4101: 'st': ローカル変数は 1 度も使われていません。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\myRSLidar.cpp(398,8): warning C4101: 'dataFile': ローカル変数は 1 度も使われていません。
+  pathplanning.cpp
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(21,1): warning C4005: '_MBCS': マクロが再定義されました。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\pathplanning.cpp : message : '_MBCS' の以前の定義を確認してください
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(440,1): warning C4005: 'RS16_ROTATION_SPEED': マクロが再定義されました。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(105): message : 'RS16_ROTATION_SPEED' の以前の定義を確認してください
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(461,185): warning C4305: '初期化中': 'double' から 'const float' へ切り詰めます。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(472,1): warning C4305: '初期化中': 'double' から 'const float' へ切り詰めます。
+  regiongrowing.cpp
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(21,1): warning C4005: '_MBCS': マクロが再定義されました。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\regiongrowing.cpp : message : '_MBCS' の以前の定義を確認してください
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(440,1): warning C4005: 'RS16_ROTATION_SPEED': マクロが再定義されました。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(105): message : 'RS16_ROTATION_SPEED' の以前の定義を確認してください
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(461,185): warning C4305: '初期化中': 'double' から 'const float' へ切り詰めます。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(472,1): warning C4305: '初期化中': 'double' から 'const float' へ切り詰めます。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\regiongrowing.cpp(27,9): warning C4068: 不明な pragma 'mark'
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\regiongrowing.cpp(41,9): warning C4068: 不明な pragma 'mark'
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\regiongrowing.cpp(42,9): warning C4068: 不明な pragma 'mark'
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\regiongrowing.cpp(74,9): warning C4068: 不明な pragma 'mark'
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\regiongrowing.cpp(75,9): warning C4068: 不明な pragma 'mark'
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\regiongrowing.cpp(116,9): warning C4068: 不明な pragma 'mark'
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\regiongrowing.cpp(117,9): warning C4068: 不明な pragma 'mark'
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\regiongrowing.cpp(137,9): warning C4068: 不明な pragma 'mark'
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\regiongrowing.cpp(138,9): warning C4068: 不明な pragma 'mark'
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\regiongrowing.cpp(179,9): warning C4068: 不明な pragma 'mark'
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\regiongrowing.cpp(180,9): warning C4068: 不明な pragma 'mark'
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\regiongrowing.cpp(255,9): warning C4068: 不明な pragma 'mark'
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\regiongrowing.cpp(256,9): warning C4068: 不明な pragma 'mark'
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\regiongrowing.cpp(285,9): warning C4068: 不明な pragma 'mark'
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\regiongrowing.cpp(286,9): warning C4068: 不明な pragma 'mark'
+  sensing.cpp
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(21,1): warning C4005: '_MBCS': マクロが再定義されました。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\sensing.cpp : message : '_MBCS' の以前の定義を確認してください
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(440,1): warning C4005: 'RS16_ROTATION_SPEED': マクロが再定義されました。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(105): message : 'RS16_ROTATION_SPEED' の以前の定義を確認してください
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(461,185): warning C4305: '初期化中': 'double' から 'const float' へ切り詰めます。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(472,1): warning C4305: '初期化中': 'double' から 'const float' へ切り詰めます。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\sensing.cpp(146,17): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\sensing.cpp(150,28): warning C4018: '>': signed と unsigned の数値を比較しようとしました。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\sensing.cpp(153,30): warning C4244: '=': 'DWORD' から 'unsigned char' への変換です。データが失われる可能性があります。
+  slam.cpp
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(21,1): warning C4005: '_MBCS': マクロが再定義されました。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\slam.cpp : message : '_MBCS' の以前の定義を確認してください
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(440,1): warning C4005: 'RS16_ROTATION_SPEED': マクロが再定義されました。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(105): message : 'RS16_ROTATION_SPEED' の以前の定義を確認してください
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(461,185): warning C4305: '初期化中': 'double' から 'const float' へ切り詰めます。
+C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\Kinden_iRobot_slam_v1\Def.h(472,1): warning C4305: '初期化中': 'double' から 'const float' へ切り詰めます。
+  コードを生成中...
+  Kinden_iRobot_slam_v1.vcxproj -> C:\Users\Kubota Lab\Desktop\kinden-2023\Kinden_slam_V1.17.0.3-1-backup\Kinden_slam\x64\Release_x64\Kinden_slam_v2.exe
