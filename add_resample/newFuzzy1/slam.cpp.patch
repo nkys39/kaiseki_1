@@ -1,0 +1,95 @@
+================================================================================
+slam.cpp への追加内容 (newFuzzy1版)
+================================================================================
+
+【追加1】slam()関数内 - 座標変換ループの直後（971行目付近）
+--------------------------------------------------------------------------------
+変更前:
+	for (int i = 0; i < SCAN_MARKS; i++)
+	{
+		if (lrf_data[i] < 100 || lrf_data[i] > 40000) {
+			x[i] = ERR;
+			y[i] = ERR;
+		}
+		else
+		{
+			x[i] = lrf_data[i] * sin(theta[i]);
+			y[i] = lrf_data[i] * cos(theta[i]);
+		}
+	}
+
+	if (robot->slam_count != 0)
+	{
+--------------------------------------------------------------------------------
+変更後:
+	for (int i = 0; i < SCAN_MARKS; i++)
+	{
+		if (lrf_data[i] < 100 || lrf_data[i] > 40000) {
+			x[i] = ERR;
+			y[i] = ERR;
+		}
+		else
+		{
+			x[i] = lrf_data[i] * sin(theta[i]);
+			y[i] = lrf_data[i] * cos(theta[i]);
+		}
+	}
+
+	// ★リサンプリング処理を追加
+	if (resampleMode == 1) {
+		int validCount;
+		resampleScanPoints(x, y, SCAN_MARKS, &validCount,
+		                   resample_dthreS, resample_dthreL, (double)ERR);
+	}
+
+	if (robot->slam_count != 0)
+	{
+--------------------------------------------------------------------------------
+
+
+【追加2】slam2()関数内 - RS-LiDAR用座標変換ループの直後（1115行目付近）
+--------------------------------------------------------------------------------
+変更前:
+	//RS-LiDAR用
+	for (int i = 0; i < rs16_NumOfPackage * BLOCKS_PER_PACKET * DATA_NUM; i++) {
+		if (lrf_dataD[i] < LASER_RANGE_MIN || lrf_dataD[i] > LASER_RANGE_MAX) {
+			x[i] = ERR;
+			y[i] = ERR;
+		}
+		else {
+			x[i] = (double)lrf_dataD[i] * sin(lrf_dataA[i]);
+			y[i] = (double)lrf_dataD[i] * cos(lrf_dataA[i]);
+		}
+	}
+
+	if (robot->slam_count != 0)
+	{
+--------------------------------------------------------------------------------
+変更後:
+	//RS-LiDAR用
+	for (int i = 0; i < rs16_NumOfPackage * BLOCKS_PER_PACKET * DATA_NUM; i++) {
+		if (lrf_dataD[i] < LASER_RANGE_MIN || lrf_dataD[i] > LASER_RANGE_MAX) {
+			x[i] = ERR;
+			y[i] = ERR;
+		}
+		else {
+			x[i] = (double)lrf_dataD[i] * sin(lrf_dataA[i]);
+			y[i] = (double)lrf_dataD[i] * cos(lrf_dataA[i]);
+		}
+	}
+
+	// ★リサンプリング処理を追加
+	if (resampleMode == 1) {
+		int validCount;
+		int scanSize = rs16_NumOfPackage * BLOCKS_PER_PACKET * DATA_NUM;
+		resampleScanPoints(x, y, scanSize, &validCount,
+		                   resample_dthreS, resample_dthreL, (double)ERR);
+	}
+
+	if (robot->slam_count != 0)
+	{
+--------------------------------------------------------------------------------
+
+
+※ Def.h, main.cpp, slam.h, Setting.ini への変更は backup と同一
+※ backup/フォルダ内の.patchファイルを参照

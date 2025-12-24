@@ -1,0 +1,28 @@
+================================================================================
+main.cpp への追加内容
+================================================================================
+
+【追加1】グローバル変数定義（91行目付近、modelModeの後）
+--------------------------------------------------------------------------------
+char modelMode;
+
+// ★以下を追加
+char resampleMode;
+double resample_dthreS;
+double resample_dthreL;
+
+double ga_search_range;
+--------------------------------------------------------------------------------
+
+
+【追加2】Setting.ini読み込み（264行目付近、modelMode読み込みの後）
+--------------------------------------------------------------------------------
+		modelMode = ::GetPrivateProfileInt("ROBOT", "MODELMODE", MODEL_MODE, strPath);
+
+		// ★以下を追加
+		resampleMode = ::GetPrivateProfileInt("ROBOT", "RESAMPLEMODE", RESAMPLE_MODE, strPath);
+		resample_dthreS = ::GetPrivateProfileInt("ROBOT", "RESAMPLE_DTHRES", (int)RESAMPLE_DTHRES, strPath);
+		resample_dthreL = ::GetPrivateProfileInt("ROBOT", "RESAMPLE_DTHREL", (int)RESAMPLE_DTHREL, strPath);
+
+		::GetPrivateProfileString("ROBOT", "SOUND_PATH", SOUND_PATH, strSoundPath, MAX_PATH, strPath);
+--------------------------------------------------------------------------------
