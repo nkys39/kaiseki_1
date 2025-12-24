@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Kinden_slam_v2", "Kinden_iRobot_slam_v1\Kinden_iRobot_slam_v1.vcxproj", "{BFB9E308-F8DE-456C-96A7-10DBBA88CCC7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		debug_x64|x64 = debug_x64|x64
+		debug_x64|x86 = debug_x64|x86
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release_x64|x64 = Release_x64|x64
+		Release_x64|x86 = Release_x64|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFB9E308-F8DE-456C-96A7-10DBBA88CCC7}.debug_x64|x64.ActiveCfg = debug_x64|x64
+		{BFB9E308-F8DE-456C-96A7-10DBBA88CCC7}.debug_x64|x64.Build.0 = debug_x64|x64
+		{BFB9E308-F8DE-456C-96A7-10DBBA88CCC7}.debug_x64|x86.ActiveCfg = debug_x64|Win32
+		{BFB9E308-F8DE-456C-96A7-10DBBA88CCC7}.debug_x64|x86.Build.0 = debug_x64|Win32
+		{BFB9E308-F8DE-456C-96A7-10DBBA88CCC7}.Debug|x64.ActiveCfg = Debug|x64
+		{BFB9E308-F8DE-456C-96A7-10DBBA88CCC7}.Debug|x64.Build.0 = Debug|x64
+		{BFB9E308-F8DE-456C-96A7-10DBBA88CCC7}.Debug|x86.ActiveCfg = Debug|Win32
+		{BFB9E308-F8DE-456C-96A7-10DBBA88CCC7}.Debug|x86.Build.0 = Debug|Win32
+		{BFB9E308-F8DE-456C-96A7-10DBBA88CCC7}.Debug|x86.Deploy.0 = Debug|Win32
+		{BFB9E308-F8DE-456C-96A7-10DBBA88CCC7}.Release_x64|x64.ActiveCfg = Release_x64|x64
+		{BFB9E308-F8DE-456C-96A7-10DBBA88CCC7}.Release_x64|x64.Build.0 = Release_x64|x64
+		{BFB9E308-F8DE-456C-96A7-10DBBA88CCC7}.Release_x64|x86.ActiveCfg = Release_x64|Win32
+		{BFB9E308-F8DE-456C-96A7-10DBBA88CCC7}.Release_x64|x86.Build.0 = Release_x64|Win32
+		{BFB9E308-F8DE-456C-96A7-10DBBA88CCC7}.Release|x64.ActiveCfg = Release|x64
+		{BFB9E308-F8DE-456C-96A7-10DBBA88CCC7}.Release|x64.Build.0 = Release|x64
+		{BFB9E308-F8DE-456C-96A7-10DBBA88CCC7}.Release|x86.ActiveCfg = Release|Win32
+		{BFB9E308-F8DE-456C-96A7-10DBBA88CCC7}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
