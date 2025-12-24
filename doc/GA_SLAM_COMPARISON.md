@@ -9,7 +9,8 @@
 | 個体数 (GANM) | 100 | 100 | 100 | 100 (可変) |
 | 遺伝子数 (GALM) | 3 | 3 | 3 | 3 |
 | 世代数 (T2) | 500 | 500 | 500 | 500 |
-| 運動モデル | ホイールオドメトリ | ホイールオドメトリ | cmd_vel | なし |
+| 運動モデル | 速度指令値ベース | 速度指令値ベース | cmd_vel | なし |
+| 運動モデルON/OFF | `modelMode` | `modelMode` | なし（常にON） | なし |
 | r2計算 | 固定 (0.5) | 固定 (0.5) | 適応的 | 適応的 |
 | ハイブリッドマッチング | なし | あり | あり | なし |
 
@@ -22,9 +23,9 @@
 ```cpp
 void mga_init(struct robot_position *robot, int **omap, int **amap)
 {
-    // ホイールオドメトリから運動モデル計算
+    // 速度指令値から運動モデル計算（エンコーダではない）
     double model[3];
-    calcRobotModel(model);
+    calcRobotModel(model);  // foutp（モータ出力値）を使用
     robot->model[0] = model[0];
     robot->model[1] = model[1];
     robot->model[2] = model[2];
@@ -67,10 +68,28 @@ void mga_init(struct robot_position *robot, int **omap, int **amap)
 ```
 
 **特徴**:
-- `calcRobotModel()` によるホイールオドメトリ使用
-- `modelMode` パラメータで初期化方式を選択
+- `calcRobotModel()` による速度指令値ベースの運動モデル使用（※エンコーダではない）
+- `modelMode` パラメータで初期化方式を選択（ON/OFF切替可能）
+  - `modelMode=0`: ランダム初期化（運動モデル不使用）
+  - `modelMode=1`: 運動モデル周辺に初期化
 - `ga_search_range` パラメータで探索範囲を制御
 - 最初の3個体を特殊個体として配置
+
+#### calcRobotModel()の実装詳細
+
+```cpp
+// slam.cpp:1038-1039
+wL = alpha[0] * foutp[1];  // 左車輪の速度指令値 × 変換係数
+wR = alpha[1] * foutp[0];  // 右車輪の速度指令値 × 変換係数
+
+vL = (r / 2.0) * wL;       // 車輪半径から移動速度へ
+vR = (r / 2.0) * wR;
+
+v = (vL + vR) / 2.0;       // 並進速度
+w = (vR - vL) / d;         // 回転角速度（d=車輪間隔）
+```
+
+**注意**: `foutp`は`decision_making()`から出力されるモータ制御指令値であり、エンコーダからのフィードバック値ではない。
 
 ### 1.2 Tainaka_ROS
 
