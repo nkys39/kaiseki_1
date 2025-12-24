@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<launch>
+    <!-- Arguments -->
+    <arg name="open_rviz" default="true"/>
+    <arg name="scan_topicname" default="base_scan"/>
+    <arg name="base_frame" default="base_footprint"/>
+    <arg name="odom_frame" default="odom"/>
+    <arg name="map_frame" default="map"/>
+    <!--arg name="map_size" default="3000"/-->
+    <arg name="err" default="-999999999"/>
+    <arg name="map_rate" default="50.0"/>
+    <arg name="t2" default="500"/>
+    
+    <node pkg="tf2_ros" type="static_transform_publisher" name="map_to_doom_static_tf" args=" 0.0 0.0 0.0  0.0 0.0 0.0 map odom" /> 
+    <node pkg="tf2_ros" type="static_transform_publisher" name="map_to_doom_static_tf2" args=" 0.0 0.0 0.0  0.0 0.0 0.0 odom base_footprint" /> 
+    <node pkg="tf2_ros" type="static_transform_publisher" name="map_to_doom_static_tf3" args=" 0.0 0.0 0.0  0.0 0.0 0.0 base_footprint base_laser_link" /> 
+    
+    <!-- GA SLAM -->
+    <node pkg="gaslam_test" type="gaslam_test_node" name="gaslam_test_node" output="screen">
+        <remap from="scan" to="$(arg scan_topicname)"/>
+        <param name="base_frame" value="$(arg base_frame)"/>
+        <param name="odom_frame" value="$(arg odom_frame)"/>
+        <param name="map_frame" value="$(arg map_frame)"/>
+        <!--param name="map_size" value="$(arg map_size)"/-->
+        <param name="err" value="$(arg err)"/>
+        <param name="map_rate" value="$(arg map_rate)"/>
+        <param name="t2" value="$(arg t2)"/>
+    </node>
+
+     
+
+    <!-- rviz -->
+    <group if="$(arg open_rviz)"> 
+      <node pkg="rviz" type="rviz" name="rviz" required="true"
+          args="-d $(find gaslam_test)/rviz/gaslam-MIT.rviz"/>
+    </group>
+
+
+</launch>

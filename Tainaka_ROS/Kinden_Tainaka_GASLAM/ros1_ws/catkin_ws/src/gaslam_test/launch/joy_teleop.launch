@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="joy_dev" default="/dev/input/js0"/>
+    <arg name="speed_command" default="cmd_vel"/>
+    <!-- joy_nodeの起動 -->
+    <node pkg="joy" type="joy_node" name="joy_node">
+        <!-- ジョイスティックのデバイス番号 -->
+        <!-- (通常は/dev/input/js0だが、複数接続した場合やタッチディスプレイがあると番号が変わる) -->
+        <param name="dev" value="$(arg joy_dev)"/>
+        
+        <!-- joy_nodeはデフォルトではジョイスティックが変化した時のみ配信する -->
+        <!-- autorepeat_rateの値(default:0.0[HZ])を変更することで変化がなくても配信するようになる -->
+        <param name="autorepeat_rate" value="10"/>
+        
+        <!-- ジョイスティックの不感帯設定(default:0.05[5%]) -->
+        <!-- 0.05の場合、最大可動範囲の5%が不感帯 -->
+        <!-- <param name="deadzone " value="0.05"/> -->
+
+        <!-- ジョイスティックの配信間隔(default:0.001[sec]) -->
+        <!-- <param name="coalesce_interval " value="0.001"/> -->
+    </node>
+    <!-- teleop_nodeの起動 -->
+    <node pkg="teleop_twist_joy" type="teleop_node" name="teleop_node">
+        <param name="enable_button " value="0"/>
+        <param name="enable_turbo_button " value="1"/>
+        <param name="axis_linear" value="1"/>
+        <param name="scale_linear" value="0.5"/>
+        <param name="scale_linear_turbo" value="1.0"/>
+        <param name="axis_angular" value="0"/>
+        <param name="scale_angular" value="0.8"/>
+        <param name="scale_angular_turbo" value="1.2"/>
+        <!-- <remap from="joy" to="joy"/> -->
+        <remap from="cmd_vel" to="$(arg speed_command)"/>
+    </node>
+</launch>

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- Arguments -->
+  <arg name="open_rviz" default="true"/>
+
+  <node pkg="tf2_ros" type="static_transform_publisher" name="map_to_doom_static_tf"
+    args=" 0.0 0.0 0.0  0.0 0.0 0.0 map odom" />  
+
+  <!-- rviz -->
+  <group if="$(arg open_rviz)"> 
+    <node pkg="rviz" type="rviz" name="rviz" required="true"
+          args="-d $(find gaslam_test)/rviz/gaslam.rviz"/>
+  </group>
+
+
+</launch>
