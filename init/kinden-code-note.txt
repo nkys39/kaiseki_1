@@ -2,24 +2,17 @@
 
 きんでんプロジェクト
 
-- Kinden_slam.zip
-きんでん側から共有されたもの。2023年度最新版。（都立大開発&実験では使ってない）
-動作確認もしてない
-きんでんと都立大のBOXにて共有された。
-きんでん⇔東京都立大学様【照度測定ロボット】/システムクラフト様データ受渡用フォルダ/20231115_都立大使用のプロジェクトフォルダの共有
-https://kinden.box.com/s/mqqdmt7t1lw5q147iy160kok01mpzxls
-
-（以下、2023年度 都立大で実験で用いたプロジェクト）
-
 - Kinden_slam_V1.17.0.3-1-backup.zip
 2022年度のプロジェクト
-
-- Kinden_slam_V1.17.0.3-1-backup-tainaka.zip
-田井中くんのSLAM破綻修正アルゴリズムを入れたもの。
-'2022年度のプロジェクト'からslam.cppのみ変更
 
 - Kinden_slam_V1.17.0.3-1-gng-slam-newFuzzy1.zip
 渡邉作、GNGに基づく経路生成を入れたもの。田井中くんのslamアルゴリズムも反映。
 ファジィ制御を更新
 ...いらないです
 変更点：main.cpp, main.h?, slam.cpp, GNG.cpp&hpp, gngPlanner.cpp&hpp, controller.cpp&hpp, regiongrowing.cpp&hpp
+
+- Tainaka_ROS
+田井中くんのslamアルゴリズムも反映したROS版
+
+- es_slam
+ROS2で動作している大元のSLAM
